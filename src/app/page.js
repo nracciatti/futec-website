@@ -126,21 +126,21 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section profesional e industrial */}
+      {/* hero  */}
       <section
         className="relative h-screen bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: "url('/images/hero-futec.png')",
         }}
       >
-        {/* Overlay profesional */}
+        {/* overlay */}
         <div className="absolute inset-0 bg-slate-900/75"></div>
 
-        {/* Contenido del hero */}
+        {/* contenido hero */}
         <div className="relative z-10 flex h-full items-center">
           <div className="mx-auto max-w-7xl px-4">
             <div className="max-w-4xl">
-              {/* Badge de experiencia */}
+              {/* experiencia */}
               <div className="inline-flex items-center px-6 py-3 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 mb-8">
                 <div className="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
                 <span className="text-white font-medium">
@@ -161,7 +161,7 @@ export default function Home() {
                 de última generación y personal altamente capacitado.
               </p>
 
-              {/* Botones profesionales */}
+              {/* botones */}
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
                 <a
                   href="https://wa.me/5491165122340?text=Hola%20FUTEC,%20me%20interesa%20solicitar%20una%20cotización%20para%20servicios%20de%20tornería"
@@ -177,7 +177,7 @@ export default function Home() {
                 </button>
               </div>
 
-              {/* Datos técnicos */}
+              {/* datos tecnicos */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 border-t border-white/20">
                 <div>
                   <div className="text-3xl font-bold text-white">500+</div>
@@ -203,10 +203,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Sección de Servicios - con líneas profesionales */}
+      {/* servicios */}
       <section className="py-20 bg-slate-50" id="servicios">
         <div className="mx-auto max-w-7xl px-4">
-          {/* Título de la sección */}
+          {/* titulo */}
           <div className="text-center mb-16">
             <div className="inline-flex items-center px-4 py-2 bg-slate-200 text-slate-700 rounded text-sm font-medium mb-4 uppercase tracking-wide">
               Nuestras Especialidades
@@ -220,7 +220,7 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Grid de servicios con líneas */}
+          {/* grid servicios */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Servicio 1 */}
             <div className="bg-white rounded-lg p-8 shadow-md hover:shadow-blue-600 transition-shadow duration-300 border border-slate-200">
@@ -379,10 +379,13 @@ export default function Home() {
             {/* imagen */}
             <div className="relative">
               <div className="aspect-square rounded-lg overflow-hidden bg-slate-200 shadow-lg">
-                <img
+                <Image
                   src="/images/trabajador-futec.png"
                   alt="Taller FUTEC - Maquinaria industrial"
                   className="w-full h-full object-cover"
+                  width={500}
+                  height={500}
+                  priority
                 />
               </div>
 
@@ -577,7 +580,7 @@ export default function Home() {
               <ul className="space-y-2">
                 <li>
                   <a
-                    href="/"
+                    href="#"
                     className="text-slate-300 hover:text-blue-400 transition-colors duration-200"
                   >
                     Inicio
