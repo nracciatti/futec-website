@@ -1,0 +1,34 @@
+/* Prevenir scroll horizontal sin deshabilitar AOS */
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal de Next.js */
+#__next,
+main,
+.page-container {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Ajustes para animaciones horizontales en mobile */
+@media (max-width: 768px) {
+  /* Reducir la distancia de las animaciones horizontales */
+  [data-aos="fade-left"],
+  [data-aos="fade-right"],
+  [data-aos="slide-left"],
+  [data-aos="slide-right"] {
+    transform: translateX(0) !important;
+  }
+
+  /* Asegurar que los elementos no se salgan durante la animación */
+  [data-aos] {
+    transform-origin: center;
+    max-width: 100%;
+  }
+}
