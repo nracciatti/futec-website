@@ -82,7 +82,7 @@ export default function HeroSection() {
                 <StatCounter end={500} suffix="+" label="Proyectos" />
               </div>
               <div className="text-center sm:text-left">
-                <StatCounter end={25} suffix="+" label="Años" />
+                <StatCounter end={15} suffix="+" label="Años" />
               </div>
               <div className="text-center sm:text-left col-span-2 md:col-span-1">
                 <div className="text-2xl sm:text-3xl font-bold text-white">

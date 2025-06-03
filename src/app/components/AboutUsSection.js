@@ -18,7 +18,7 @@ export default function AboutUsSection() {
             <p className="text-lg text-slate-600 mb-6 leading-relaxed">
               Con más de{" "}
               <span className="font-semibold text-blue-600">
-                25 años de experiencia
+                15 años de experiencia
               </span>{" "}
               en el rubro de la tornería, FUTEC se ha consolidado como una
               empresa líder en soluciones de mecanizado de precisión.
@@ -42,7 +42,8 @@ export default function AboutUsSection() {
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-blue-600 rounded-full mr-4"></div>
                 <span className="text-slate-700">
-                  Más de 15 años de experiencia
+                  Más de 15 años de experiencia en rubros Petrolero, Automotor,
+                  Línea blanca e Industria GNC.
                 </span>
               </div>
               <div className="flex items-center">

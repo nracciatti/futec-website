@@ -164,7 +164,7 @@ export default function Footer() {
         <div className="border-t border-slate-700 mt-8 pt-8">
           <div className="text-center space-y-2">
             <p className="text-slate-400">
-              © 2025 FUTEC - Servicios de Tornería. Todos los derechos
+              © 2025 FUTEC - Todos los derechos
               reservados.
             </p>
             <p className="text-slate-500 text-sm">
@@ -175,7 +175,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-blue-400 font-semibold hover:text-blue-300 transition-colors duration-200 hover:underline"
               >
-                nracciatti
+                niRa
               </a>
             </p>
           </div>

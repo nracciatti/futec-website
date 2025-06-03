@@ -36,8 +36,9 @@ export default function ServicesSection() {
               Tornería Convencional
             </h3>
             <p className="text-slate-600 leading-relaxed">
-              Mecanizado de piezas con tornos convencionales. Trabajos de
-              precisión en diferentes materiales y medidas.
+              Trabajos de precisión en diferentes materiales y medidas. Contamos
+              con 12 tornos automáticos, 6 roscadoras, 8 agujereadoreas y 1
+              laminadora de rosca
             </p>
           </div>
 
@@ -55,9 +56,9 @@ export default function ServicesSection() {
               Tornería CNC
             </h3>
             <p className="text-slate-600 leading-relaxed">
-              Contamos con seis tornos CNC. Mecanizado de alta precisión con
-              control numérico computarizado. Ideal para series y piezas
-              complejas.
+              Contamos con 6 tornos CNC y 4 centros de mecanizado de alta
+              precisión con control numérico computarizado. Ideal para series y
+              piezas complejas.
             </p>
           </div>
 
@@ -71,12 +72,13 @@ export default function ServicesSection() {
             <div className="mb-6">
               <div className="w-16 h-1 bg-blue-600 rounded mb-4"></div>
             </div>
-            <h3 className="text-xl font-bold text-slate-800 mb-4">
-              Reparaciones
-            </h3>
+            <h3 className="text-xl font-bold text-slate-800 mb-4">Estampado</h3>
             <p className="text-slate-600 leading-relaxed">
-              Reparación y reconstrucción de piezas industriales. Soluciones
-              rápidas y efectivas para su maquinaria.
+              Realizamos trabajos de estampado de hasta 80 TN con matricería
+              propia o del cliente. {""}
+              <span className="font-semibold text-blue-600">
+                Proximamente servicio de corte laser y plegado.
+              </span>
             </p>
           </div>
 

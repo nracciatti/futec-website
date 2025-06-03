@@ -13,10 +13,10 @@ export default function Header() {
           <div className="text-sm font-medium flex items-center space-x-4">
             <div className="hidden sm:flex items-center">
               <span className="text-blue-200">📞</span>
-              <span className="ml-2">011 65122340</span>
-            </div>
-            <div className="sm:hidden">
-              <span>011 65122340</span>
+              <span className="ml-2">
+                {" "}
+                <a href="tel:+5491165122340">011 6512 2340</a>
+              </span>
             </div>
           </div>
         </div>
